@@ -1,3 +1,6 @@
 "use client"
-const About = () => <h1>About Route</h1>;
+
+import CustomAbout from "../custom-about/page";
+
+const About = () => <CustomAbout/>;
 export default About;
